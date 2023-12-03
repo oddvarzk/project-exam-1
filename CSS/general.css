@@ -68,7 +68,7 @@ nav a {
 nav a:hover{
     text-decoration: underline;
 }
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -78,7 +78,7 @@ nav a:hover{
         display: none;
     }
     .right-side-header{
-        margin-bottom: 2px;
+        padding-top: 0;
     }
 }
 .hamburger-icon {

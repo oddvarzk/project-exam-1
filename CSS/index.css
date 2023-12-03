@@ -273,3 +273,13 @@ a{
     grid-row-start: 1;
     grid-column-start: 1;
 }
+.front-page-description{
+    width: 80%;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 900px) {
+    .front-page-container{
+        margin: 0;
+        grid-template-columns: repeat(auto-fit,minmax(90%,200px));
+    }
+}

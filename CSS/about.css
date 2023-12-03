@@ -1,19 +1,23 @@
-.about-container{
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .about-image{
-    width: 100%;
-}
-.about-text-container{
-    width: 30%;
-}
-.image-container{
-    width: 60%;
-    margin-top: 20px;
+    width: 50%;
 }
 h1{
     display: flex;
     justify-content: center;
+}
+.about-container{
+    display: grid;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.about-text-container{
+    display: grid;
+
+    letter-spacing: 1px;
+    font-weight: 500;
 }

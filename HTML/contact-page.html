@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/CSS/contact-page.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Plus+Jakarta+Sans:wght@200;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f82c4356c6.js" crossorigin="anonymous"></script>
+    <script src="/JS/contact-us.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -73,19 +74,23 @@
         <div class="contact-box">
             <label for="Name" class="sr-only">Name</label>
             <input class="regular-input" type="text" placeholder="First and last name" id="Name">
+            <span class="error-message name-error"></span>
 
             <label for="E-mail" class="sr-only">E-mail</label>
             <input class="regular-input" type="email" placeholder="E-mail" id="E-mail">
+            <span class="error-message email-error"></span>
 
             <label for="Contacting-reason" class="sr-only">Contacting reason</label>
             <input class="regular-input" type="text" placeholder="Reason for contacting us" id="Contacting-reason">
+            <span class="error-message subject-error"></span>
 
             <label for="Message" class="sr-only">Message</label>
             <input class="large-input" type="text" placeholder="Message... (max 300 words.)" id="Message">
+            <span class="error-message message-error"></span>
 
-            <button class="send-button">Send Message</button>
         </div>
     </div>
+    
 
 
 
