@@ -1,0 +1,15 @@
+.specific-image{
+    width: 40%;
+    height: 400px;
+}
+
+.specific-blog-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

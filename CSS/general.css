@@ -1,0 +1,86 @@
+.header{
+    margin: 0;
+    background-color: rgb(35, 37, 49);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.header-logo{
+    height: 80px;
+}
+.header-text{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.header-text:hover{
+    text-decoration-line: underline;
+}
+.right-side-header{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+.footer{
+    background-color: rgb(35, 37, 49);
+    position: relative;
+}
+.footer-image-container{
+    display: flex;
+    justify-content: center;
+}
+nav,
+#menu-checkbox{
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    left: 0;
+
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(35, 37, 49);
+    background-color: rgb(35, 37, 49);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+span{
+    display: none;
+}
+nav a {
+    display: block;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+@media (min-width: 600px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .hamburger-icon{
+        display: none;
+    }
+    .right-side-header{
+        margin-bottom: 2px;
+    }
+}
+.hamburger-icon {
+    color: white;
+}

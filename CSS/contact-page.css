@@ -1,0 +1,53 @@
+h1{
+    margin-left: 4%;
+}
+.contact-description{
+    margin-left: 5%;
+    width: 60%;
+}
+.contact-box{
+    display: grid;
+    gap: 5px;
+    margin-left: 5%;
+}
+.regular-input{
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    background-color: rgb(41, 40, 35);
+    color: white;
+
+    border-style: solid;
+}
+.large-input{
+    padding-bottom: 100px;
+    padding-top: 6px;
+    padding-left: 10px;
+    width: 280px;
+
+    background-color: rgb(41, 40, 35);
+    border-style: solid;
+    color: white;
+}
+.send-button{
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(191, 148, 86);
+    border-radius: 3px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.send-button:hover{
+    background-color: rgb(202, 172, 130);
+}
+.send-button:active{
+    background-color: rgb(134, 184, 59);
+}
