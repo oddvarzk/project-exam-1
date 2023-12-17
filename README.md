@@ -1,68 +1,51 @@
-## Project Exam 1
+# Project Exam Carmania Blog Website
 
-## Goal
+![image](https://raw.githubusercontent.com/oddvarzk/Portofolio1/main/images/Carmania.png)
 
-To put into practice the skills learned over your first year of studies.
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+## Description
 
-### Home Page
+This website is a Car Blog website designed to give the user better overview on car related blogs.
+The websites blogs is connected to a REST Wordpress API with JS.
+The front of the page showcases a welcome text and a picture of luxury car. Under this there is a carousel slider should showcase different car blogs, but since i couldn't get my JS to work properly at the time
+I had to rush into the other sections of the project, will return to this and fix it.
+Under the carousell you have Related Car Blogs section that give an overview of some of the carblogs, pressing one of them pushes you into the specified car blog that was clicked with a detailed
+page on the blog. 
+The website has a working NAV menu when the screen get's minimized. A list of blogs Page for better insight on everything there is blog wise, a contact page and an about page. In my opinion there are a few 
+small fixes that i will implement on the site as it's not 100% complete. 
 
-The home page should feature a 'Latest Posts' section, designed as a carousel (slider) for the desktop version. As an example, you could display four posts at a time, although you're welcome to adjust this number to better suit your design. Users should be able to click an arrow on the right to scroll through to the next set of posts, and an arrow on the left to view the previous set. For the mobile version, you are free to alter the layout as you deem appropriate, without being tied to a carousel format.
+## Built With
 
-### Blog Page
+-HTML
+-CSS
+-Javascript
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+## Getting Started
 
-### Blog Specific Page
+### Installing
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-If images on the blog specific page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+1. Clone the repo:
 
-### Contact page
+```bash
+git git@github.com:oddvarzk/CA-Rainydays.git
+```
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+2. Open with VS Code
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+### Running
 
-### WordPress
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+To run the website, do the following:
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+Have Live Server installed on your VS Code, and right click the index.html page and press Open with Live Server and you are good to go!
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+## Contributing
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+Please open a pull request to review the code, contact me below for any pointers on faulty code or changes i could make to make the website better, hence it's only my first year as a front end dev student, so any pointers is much appreciated.
 
-## Level 1 Process
+## Contact
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
-
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+[My LinkedIn page](https://www.linkedin.com/in/oddvar-kristiansen-22b583262/)
 
